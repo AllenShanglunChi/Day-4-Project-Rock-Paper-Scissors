@@ -1,5 +1,4 @@
 import random
-import math
 
 rock = '''
     _______
