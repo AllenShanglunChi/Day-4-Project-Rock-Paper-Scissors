@@ -32,7 +32,7 @@ list = [rock, paper, scissors]
 
 userChoice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 if userChoice.isdigit() == False:
-  print("Game rule Violation! Please enter number values only!")
+  print("Game rule violation! Please enter number values only!")
 else:
   userChoice = int(userChoice)
   if (userChoice >= 3) or (userChoice < 0):
